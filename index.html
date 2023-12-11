@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP TASKS</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <div class="class-input">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title" placeholder="Title">
+                <p hidden>The field title is required</p>
+            </div>
+            <div class="class-input">
+                <label for="description">description</label>
+                <textarea name="description" id="description" rows="3" placeholder="Description"></textarea>
+                <p hidden>The field description is required</p>
+            </div>
+            <button id="bnt-save">Save</button>
+        </form>
+        <div class="tasks-list"></div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
